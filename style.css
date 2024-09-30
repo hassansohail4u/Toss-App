@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.full-app{
+    background-color: lightgray;
+    margin: 20px 0px 0px;
+
+}
+
+.heading{
+    text-align: center;
+    padding: 8px 0px;
+    letter-spacing: 4px;
+    font-size: 90px;
+    background-color:aqua;
+    border: 3px solid black;
+}
+
+
+.half-app{
+    margin: 30px 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 40px;
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 9px 9px 3px black;
+}
+
+.img{
+    border-radius: 120px;
+}
+
+.button{
+    margin: 8px 10px;
+    padding: 5px 25px;
+    background-color:darkgrey;
+    /* color:thistle; */
+    border: 1px solid whitesmoke;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+.button:hover{
+    background: rgb(95, 95, 95);
+    color: white;
+}
